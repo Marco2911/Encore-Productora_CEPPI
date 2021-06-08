@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/mi_sitio.css">
+	<meta name="description" content="Este es el sitio web de mi productora en la que encontrarás fechas, venues, grupos de kpop, noticias y mucho más">
+    <meta name="keywords"  content="MÚSICA, VIDEOS, GRUPOS, KPOP, SHOWS">
+	<title>Encore Productora</title>
+</head>
+<div class="grid-container">
+  <div class="body"></div>
+  <div class="footer"></div>
+  <div class="logo"></div>
+  <div class="nav"></div>
+  <div class="search"></div>
+</div>
+<body>
+  <main id="sticky">
+    <nav class="navbar navbar-expand-lg mt-0 navbar-light">
+      <div class="container-fluid header-img">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" alt="logo" width="200px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav__text--center mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="shows.html">Shows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="venues.html">Venues</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </main>
+	<h2 class="formulario">Formulario</h2>
+	<form action="#" method="GET" class="form-center">
+		<label for="nombre" class="contacto">Nombre</label>
+		<input type="text" name="nombre">
+		<br>
+		<br>
+		<label for="email" class="contacto">Email</label>
+		<input type="email" name="email">
+		<br>
+		<br>
+		<label for="motivo" class="contacto">Motivo de consulta:</label>
+		<select name="estadocivil">
+			<option name= "C">Compra de entradas</option>
+			<option name= "A">Anular compra</option>
+			<option name= "R">Reembolsos</option>
+			<option name= "O">Otro</option>
+		</select>
+		<br>
+		<br>
+		<div id="terminos" class="contacto"> ¿Desea suscribirse a nuestro newsletter?
+		<input type="checkbox" name="acepta" value="1">
+		</div>
+		<br>
+
+		<label for="comentarios" class="contacto">Comentarios:</label>
+		<br><br>
+		<input type="text" name="comentario" placeholder="Escribí acá tu comentario" class="font-italic">
+		<br><br>
+		<input type="submit" value="Enviar">
+		<input type="reset" value="Cancelar">
+	</form>
+	<br>
+	<br>
+	<br>
+<footer class="footer"> 
+	<article class="logo-mas">MAS DE ENCORE</article>
+	<article>
+		<div>
+			<h3 class="newsletter">suscribite a nuestro newsletter</h3>
+			<h3 class="footer__redes">REDES</h3>
+		</div>
+	</article>
+	<img src="img/logo.png" alt="logo" width="120px" class="logo">
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
